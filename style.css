@@ -6,7 +6,6 @@
         width: 100%;
         position: fixed;
         top: 220px;
-        left: 25px;
     }
     
 }
@@ -75,10 +74,6 @@ body {
     text-align: center;
 }
 
-.ratePage {
-    /* display: none; */
-}
-
 .thankPage {
     display: none;
     justify-items: center;
@@ -93,7 +88,7 @@ body {
     padding: 12px;
 }
 
-.appreciate {
+.appreciate, .thankMsg {
     text-align: center;
 }
 
