@@ -14,6 +14,10 @@
     .ratePage, .thankPage {
         position: fixed;
         top: 220px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 250px;
+        height: 350px;
     }
 
     .submit:hover {
@@ -48,7 +52,6 @@ body {
     background-color: hsl(216, 12%, 8%);
     border: 1px solid hsl(216, 12%, 8%);
     border-radius: 16px;
-    width: 70%;
     margin: 32px auto;
     padding: 26px;
     display: grid;
