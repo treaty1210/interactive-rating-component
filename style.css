@@ -1,0 +1,19 @@
+/* Font Family */
+
+/* mobile */
+@media only screen and (max-width: 768px) {
+    
+    .ratePage {
+        width: 100%;
+    }
+}
+
+
+body {
+    background-color: hsl(216, 12%, 8%);
+    font-family: "Overpass", sans-serif;
+}
+
+.thankPage {
+    display: none;
+}
