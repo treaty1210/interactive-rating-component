@@ -87,7 +87,11 @@ body {
     border-radius: 50%;
     color: hsl(217, 12%, 63%);
     width: 20px;
+    height: 20px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .submit {
@@ -97,6 +101,9 @@ body {
     border-radius: 40px;
     color: white;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .thankPage {
@@ -111,6 +118,9 @@ body {
     border-radius: 15px;
     text-align: center;
     padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .appreciate, .thankMsg {
