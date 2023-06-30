@@ -10,6 +10,28 @@
     
 }
 
+@media only screen and (min-width: 769px) {
+    .ratePage, .thankPage {
+        position: fixed;
+        top: 220px;
+    }
+
+    .submit:hover {
+        background-color: white;
+        color: hsl(25, 97%, 53%)
+    }
+
+    .ratings > *:hover {
+        background-color: hsl(25, 97%, 53%);
+        color: white;
+    }
+
+    .ratings > *:active {
+        background-color: hsl(217, 12%, 63%);
+        color: white;
+    }
+}
+
 body {
     background-color: hsl(206, 21%, 6%);
     font-family: "Overpass", sans-serif;
