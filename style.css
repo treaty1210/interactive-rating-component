@@ -2,18 +2,25 @@
 
 /* mobile */
 @media only screen and (max-width: 768px) {
-    .ratePage {
+    .ratePage, .thankPage {
         width: 100%;
+        position: fixed;
+        top: 220px;
+        left: 25px;
     }
-    .thankPage {
-        width: 100%;
-    }
+    
 }
 
 body {
     background-color: hsl(206, 21%, 6%);
     font-family: "Overpass", sans-serif;
     font-size: 15px;
+}
+
+.container {
+    display: grid;
+    align-content: center;
+    justify-items: center;
 }
 
 .ratePage, .thankPage {
@@ -73,7 +80,7 @@ body {
 }
 
 .thankPage {
-    /* display: none; */
+    display: none;
     justify-items: center;
 }
 
@@ -92,4 +99,6 @@ body {
 
 .attribution {
     color: white;
+    position: absolute;
+    bottom: 0;
 }
