@@ -5,28 +5,37 @@
     .ratePage {
         width: 100%;
     }
+    .thankPage {
+        width: 100%;
+    }
 }
 
 body {
-    background-color: hsl(216, 12%, 8%);
+    background-color: hsl(206, 21%, 6%);
     font-family: "Overpass", sans-serif;
     font-size: 15px;
+}
+
+.ratePage, .thankPage {
+    background-color: hsl(216, 12%, 8%);
+    border: 1px solid hsl(216, 12%, 8%);
+    border-radius: 16px;
 }
 
 .star {
     background-color: hsl(213, 19%, 18%);
     padding: 12px;
-    border: 1 solid hsl(213, 19%, 18%);
+    border: 1 solid hsl(214, 68%, 7%);
     border-radius: 50%;
 }
 
-.question {
+.question, .thankMsg {
     color: hsl(0, 0%, 100%);
     font-weight: 700;
     font-size: 30px;
 }
 
-.feedback {
+.feedback, .appreciate {
     color: hsl(217, 12%, 63%);
 }
 
@@ -48,3 +57,14 @@ body {
 /* .thankPage {
     display: none;
 } */
+
+.selectMsg {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(213, 19%, 18%);
+    border: 1px solid hsl(213, 19%, 18%);
+    border-radius: 15px;
+}
+
+.attribution {
+    color: white;
+}
